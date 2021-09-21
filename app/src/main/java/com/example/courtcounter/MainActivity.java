@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //for team A
+    // FOR TEAM A
     public void displayForTeamA(int score){
         TextView scoreView=(TextView)findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
     }
 
-    //for team B
+    // FOR TEAM B
     public void displayForTeamB(int score){
         TextView scoreView=(TextView)findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
